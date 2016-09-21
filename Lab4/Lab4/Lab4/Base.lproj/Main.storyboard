@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FF5-pd-LwL">
+                                <rect key="frame" x="20" y="20" width="560" height="560"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLACEHOLDER" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o10-eF-OOz" userLabel="label_display">
+                                        <rect key="frame" x="40" y="210" width="480" height="140"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="o10-eF-OOz" firstAttribute="leading" secondItem="FF5-pd-LwL" secondAttribute="leading" constant="120" id="25u-gH-TzY"/>
+                                    <constraint firstAttribute="bottom" secondItem="o10-eF-OOz" secondAttribute="bottom" constant="210" id="6f0-rp-whf"/>
+                                    <constraint firstItem="o10-eF-OOz" firstAttribute="top" secondItem="FF5-pd-LwL" secondAttribute="top" constant="210" id="9Zr-W1-hhM"/>
+                                    <constraint firstItem="o10-eF-OOz" firstAttribute="leading" secondItem="FF5-pd-LwL" secondAttribute="leading" constant="40" id="GQA-Zr-Vuz"/>
+                                    <constraint firstAttribute="trailing" secondItem="o10-eF-OOz" secondAttribute="trailing" constant="40" id="bns-nG-EeG"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="25u-gH-TzY"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="FF5-pd-LwL" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="9Kj-XD-kaF"/>
+                            <constraint firstItem="FF5-pd-LwL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="20" id="HXt-p9-P6y"/>
+                            <constraint firstItem="FF5-pd-LwL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="IlM-OX-PBd"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="FF5-pd-LwL" secondAttribute="bottom" constant="20" id="Vfw-92-ofj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="labelDisplay" destination="o10-eF-OOz" id="BbU-1f-n7c"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="325" y="375"/>
+        </scene>
+    </scenes>
+</document>

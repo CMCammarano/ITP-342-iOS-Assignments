@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Colin Cammarano" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="00i-5v-WO7">
+                                <rect key="frame" x="20" y="20" width="560" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="560" id="bzP-lR-eOG"/>
+                                    <constraint firstAttribute="height" constant="38" id="g6C-ND-NRp"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="38" id="hdP-Ns-3SZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="colin" translatesAutoresizingMaskIntoConstraints="NO" id="4Bl-Q6-3tg">
+                                <rect key="frame" x="20" y="70" width="560" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="560" id="IVg-3U-JIS"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="240" id="KJN-Jo-VJ1"/>
+                                    <constraint firstAttribute="height" constant="240" id="mOe-3c-Zrv"/>
+                                    <constraint firstAttribute="width" constant="560" id="tzW-di-Elf"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oby-9s-en0">
+                                <rect key="frame" x="20" y="330" width="560" height="192"/>
+                                <string key="text">I'm an entrepreneur, independent software developer, and full-time student majoring in Computer Science and Computer Engineering at the University of Southern California. I love every aspect of software development, and I've dabbled in web development, full-stack development, large-scale systems development, software engineering, app development, networking, and even game design and development. I founded a small development company called Singularity Productions LLC, where I develop tools for Unity developers.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ich bin ein &quot;hot dog.&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewL-Px-R88">
+                                <rect key="frame" x="20" y="558" width="560" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="ETz-xZ-hQb"/>
+                                    <constraint firstAttribute="width" constant="560" id="wPN-RU-bze"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.62880138422818788" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83501992449664431" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="4Bl-Q6-3tg" firstAttribute="top" secondItem="00i-5v-WO7" secondAttribute="bottom" constant="12" id="0uO-fe-rSS"/>
+                            <constraint firstItem="ewL-Px-R88" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="3vs-kx-Xq0"/>
+                            <constraint firstItem="00i-5v-WO7" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="3yk-OY-jQq"/>
+                            <constraint firstItem="Oby-9s-en0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="AR3-cb-wSt"/>
+                            <constraint firstItem="ewL-Px-R88" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="BLy-dg-N3N"/>
+                            <constraint firstItem="00i-5v-WO7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="SSs-0r-FgD"/>
+                            <constraint firstItem="4Bl-Q6-3tg" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="TFk-6T-uNf"/>
+                            <constraint firstItem="4Bl-Q6-3tg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Wqe-NY-PaN"/>
+                            <constraint firstItem="ewL-Px-R88" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="X62-u5-A49"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ewL-Px-R88" secondAttribute="bottom" constant="20" id="aJa-ee-zmv"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ewL-Px-R88" secondAttribute="bottom" constant="20" id="aKa-OX-4Gs"/>
+                            <constraint firstItem="Oby-9s-en0" firstAttribute="top" secondItem="4Bl-Q6-3tg" secondAttribute="bottom" constant="20" id="c0H-7z-aI0"/>
+                            <constraint firstItem="4Bl-Q6-3tg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="fSY-1j-nbS"/>
+                            <constraint firstItem="Oby-9s-en0" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="ffT-4O-gGr"/>
+                            <constraint firstItem="4Bl-Q6-3tg" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="fwc-qy-zY7"/>
+                            <constraint firstItem="00i-5v-WO7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="lKR-WY-eQl"/>
+                            <constraint firstItem="00i-5v-WO7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="lfX-Yo-oeh"/>
+                            <constraint firstItem="00i-5v-WO7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="20" id="lxw-zo-YGU"/>
+                            <constraint firstItem="Oby-9s-en0" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="okh-zg-jRm"/>
+                            <constraint firstItem="00i-5v-WO7" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="q7Y-8m-VIU"/>
+                            <constraint firstItem="ewL-Px-R88" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="qCH-fS-8MF"/>
+                            <constraint firstItem="ewL-Px-R88" firstAttribute="top" secondItem="Oby-9s-en0" secondAttribute="bottom" constant="36" id="qKP-Yh-yS0"/>
+                            <constraint firstItem="4Bl-Q6-3tg" firstAttribute="top" secondItem="00i-5v-WO7" secondAttribute="bottom" constant="12" id="qMP-jl-16U"/>
+                            <constraint firstItem="Oby-9s-en0" firstAttribute="top" secondItem="4Bl-Q6-3tg" secondAttribute="bottom" constant="20" id="w9e-A0-P4o"/>
+                            <constraint firstItem="Oby-9s-en0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="xgP-m8-Glk"/>
+                            <constraint firstItem="ewL-Px-R88" firstAttribute="top" secondItem="Oby-9s-en0" secondAttribute="bottom" constant="36" id="ycW-PR-zwI"/>
+                            <constraint firstItem="ewL-Px-R88" firstAttribute="top" secondItem="Oby-9s-en0" secondAttribute="bottom" constant="36" id="z7F-Lv-d88"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="325" y="387"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="colin" width="512" height="512"/>
+    </resources>
+</document>
